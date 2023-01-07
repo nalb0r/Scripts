@@ -52,6 +52,6 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
     
     
     if getgenv().ServerHop == true then
-    wait (500)
+    wait(500)
     game:GetService("TeleportService"):Teleport(648362523, LocalPlayer)
     end
